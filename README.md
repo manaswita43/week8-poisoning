@@ -35,4 +35,4 @@ The workflow begins by organizing and versioning data using DVC with a Google Cl
 
 CI runs sanity tests (sanity_test.py) on every push.
 
-**Note:** Please refer results folder to compare the comparisons of model run on different poisoned datasets.
+**Note:** Please refer **results** folder to compare the comparisons of model run on different poisoned datasets.
