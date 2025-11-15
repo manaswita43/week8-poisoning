@@ -9,6 +9,7 @@ import sys
 
 dataset = sys.argv[1]
 exp_name = sys.argv[2]
+mlflow.set_tracking_uri("http://127.0.0.1:8100")
 
 mlflow.set_experiment(exp_name)
 
